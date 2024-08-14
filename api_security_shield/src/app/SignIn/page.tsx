@@ -7,7 +7,7 @@ import { getLocalStorgeToken } from "../../components/getToken";
 
 
 const LoginPage: React.FC = () => {
-  
+
   const token = getLocalStorgeToken();
   useEffect(() => {
     if (token) {
@@ -23,7 +23,7 @@ const LoginPage: React.FC = () => {
     username: ""
   });
 
- 
+
 
   const handleToggleForm = () => {
     setIsLogin(!isLogin);
@@ -36,7 +36,7 @@ const LoginPage: React.FC = () => {
     });
   };
 
-  
+
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -71,7 +71,7 @@ const LoginPage: React.FC = () => {
       console.error("API Error:", error);
     }
   };
-  
+
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">

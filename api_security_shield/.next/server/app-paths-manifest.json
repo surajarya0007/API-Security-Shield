@@ -1,6 +1,7 @@
 {
   "/page": "app/page.js",
-  "/apiInventory/page": "app/apiInventory/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/Dashboard/page": "app/Dashboard/page.js",
-  "/OwaspScans/page": "app/OwaspScans/page.js"
+  "/ApiInventory/page": "app/ApiInventory/page.js",
+  "/OwaspScan/page": "app/OwaspScan/page.js"
 }

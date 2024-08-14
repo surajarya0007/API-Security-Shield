@@ -11,20 +11,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/apiInventory/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/apiInventory/page.js"
-    ],
     "/Dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/Dashboard/page.js"
     ],
-    "/OwaspScans/page": [
+    "/ApiInventory/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/OwaspScans/page.js"
+      "static/chunks/app/ApiInventory/page.js"
+    ],
+    "/OwaspScan/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/OwaspScan/page.js"
     ]
   }
 }
