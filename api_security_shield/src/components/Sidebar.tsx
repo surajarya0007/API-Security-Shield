@@ -71,7 +71,7 @@ const Sidebar = () => {
             <a href="/Dashboard" className="hover:underline">Dashboard</a>
           </li>
           <li className="">
-            <a href="/Profile" className="hover:underline">Profile</a>
+            <a href="/Settings" className="hover:underline">Settings</a>
           </li>
         </ul>
       </motion.div>
