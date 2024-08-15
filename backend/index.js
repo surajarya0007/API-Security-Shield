@@ -12,7 +12,7 @@ const MONGO_URI =
   "mongodb+srv://aryasuraj351:7BnvdHY5olKiB2YZ@cluster0.ldd7x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
-  .connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(MONGO_URI)
   .then(() => {
     console.log("Connected to MongoDB");
   })
@@ -22,8 +22,7 @@ mongoose
 
 app.use(cors());
 app.use(express.json());
-
-// app.use("/api", apiRoutes);
+app.use("/api", apiRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

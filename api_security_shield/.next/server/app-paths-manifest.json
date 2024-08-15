@@ -1,7 +1,9 @@
 {
-  "/ApiInventory/page": "app/ApiInventory/page.js",
-  "/OwaspScan/page": "app/OwaspScan/page.js",
   "/Dashboard/page": "app/Dashboard/page.js",
-  "/Settings/page": "app/Settings/page.js",
-  "/Profile/page": "app/Profile/page.js"
+  "/Profile/page": "app/Profile/page.js",
+  "/Login/page": "app/Login/page.js",
+  "/ApiInventory/page": "app/ApiInventory/page.js",
+  "/ApiDetails/page": "app/ApiDetails/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/OwaspScan/page": "app/OwaspScan/page.js"
 }
