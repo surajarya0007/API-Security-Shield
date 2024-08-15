@@ -33,6 +33,9 @@ const apiSchema = new mongoose.Schema({
   documentation: {
     type: String,
   },
+  cvssscore: {
+    type: String,
+  },
   vulnerabilities: [
     {
       description: { type: String },
